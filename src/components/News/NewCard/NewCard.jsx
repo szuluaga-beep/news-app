@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import { Link } from 'react-router-dom'
 
 const NewCard = ({ newData }) => {
      const [newInfo, setNewInfo] = useState(newData)
@@ -10,7 +11,10 @@ const NewCard = ({ newData }) => {
                  <p className="card-text">{newInfo.description}</p>
                  <span>{newInfo.author}</span>
                  <p>{newInfo.date }</p>
-                 {/* <a href="#" className="btn btn-primary">Ver Noticia</a> */}
+                 
+                 <Link to={`/news/${newInfo.id}`} className="btn btn-primary">
+                      Ver Noticia
+                 </Link>
             </div>
        </div>
   )

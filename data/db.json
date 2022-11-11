@@ -23,6 +23,22 @@
       "description": "Esta es una descripción",
       "date": "2022-11-11",
       "author": "Carlos Juan"
+    },
+    {
+      "id": 4,
+      "title": "Noticia 4",
+      "imageUrl": "https://cdn.pixabay.com/photo/2013/08/11/19/46/coffee-171653_960_720.jpg",
+      "description": "Esta es una descripción",
+      "date": "2022-11-10",
+      "author": "Steven Zuluaga Cortes"
+    },
+    {
+      "id": 5,
+      "title": "Noticia 5",
+      "imageUrl": "https://cdn.pixabay.com/photo/2013/08/11/19/46/coffee-171653_960_720.jpg",
+      "description": "Esta es una descripción",
+      "date": "2022-11-10",
+      "author": "Estivinson"
     }
   ]
 }

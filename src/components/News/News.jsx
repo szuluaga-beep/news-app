@@ -24,12 +24,12 @@ const News = () => {
                     <h1>Noticias</h1>
 
                </div>
-               <div className='container mt-5 d-flex text-center'>
+               <div className='container mt-5 d-flex text-center flex-wrap '>
 
                     {
                          newsData.length === 0 ? <h1>No hay noticias</h1> :
                               newsData.map((newData) => (
-                                   <div key={newData.id} className="col-sm-4">
+                                   <div key={newData.id} className="col-sm-3 mt-3">
                                         <NewCard newData={newData} />
                                    </div>
                               ))
