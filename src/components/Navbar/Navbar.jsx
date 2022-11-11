@@ -1,10 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import logo from '../../Assets/images/Logo.png'
+import './Navbar.css'
 
 const Navbar = () => {
      return (
-          <>
-               <ul>
+          <div className='navbar-style'>
+               <img className='logo-navbar' src={logo}/>
+               <ul className='navbar-list'>
                     <li>
                          <NavLink to='/'>Home</NavLink>
                     </li>
@@ -12,7 +15,7 @@ const Navbar = () => {
                          <NavLink to='/news'>News</NavLink>
                     </li>
                </ul>
-          </>
+          </div>
      )
 }
 
