@@ -26,13 +26,14 @@ const News = () => {
                </div>
                <div className='container mt-5 d-flex text-center'>
 
-               {
-                    newsData.map((newData) => (
-                         <div key={newData.id} className="col-sm-4">
-                              <NewCard newData={newData} />
-                         </div>
-                    ))
-               }
+                    {
+                         newsData.length === 0 ? <h1>No hay noticias</h1> :
+                              newsData.map((newData) => (
+                                   <div key={newData.id} className="col-sm-4">
+                                        <NewCard newData={newData} />
+                                   </div>
+                              ))
+                    }
                </div>
           </div>
      )
