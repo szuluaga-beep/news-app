@@ -5,6 +5,7 @@ import Home from './components/Home/Home'
 import News from './components/News/News'
 import 'bootstrap/dist/css/bootstrap.css';
 import NewDetails from './components/News/NewDetails/NewDetails'
+import FormNew from './components/FormNews/FormNew'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
+        <Route path='formNew' element={ <FormNew/>} />
         <Route path='/news' element={<News />} />
         <Route path='/news/:id' element={<NewDetails />} />
       </Routes>

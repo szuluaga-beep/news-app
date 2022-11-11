@@ -14,6 +14,9 @@ const Navbar = () => {
                     <li>
                          <NavLink to='/news'>News</NavLink>
                     </li>
+                    <li>
+                         <NavLink to='/formNew'>Form New</NavLink>
+                    </li>
                </ul>
           </div>
      )
