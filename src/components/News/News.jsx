@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import NewCard from './NewCard/NewCard'
 
 const News = () => {
      const [newsData, setNewsData] = useState([])
@@ -11,24 +12,28 @@ const News = () => {
           } catch (error) {
                console.log(error);
           }
-          
+
      }
      useEffect(() => {
-       fetchNews()
+          fetchNews()
      }, [])
-     
+
      return (
-          <div>
+          <div >
+               <div className='text-center' >
+                    <h1>Noticias</h1>
+
+               </div>
+               <div className='container mt-5 d-flex text-center'>
+
                {
-                    newsData.map(newData => (
-                         <div key={newData.id}>
-                              <h1>
-                                   {newData.title}
-                              </h1>
-                              <img src={newData.imageUrl} />
+                    newsData.map((newData) => (
+                         <div key={newData.id} className="col-sm-4">
+                              <NewCard newData={newData} />
                          </div>
                     ))
-              }
+               }
+               </div>
           </div>
      )
 }

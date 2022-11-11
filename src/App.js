@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import { Routes, Route } from 'react-router-dom'
 import Home from './components/Home/Home'
 import News from './components/News/News'
-
+import 'bootstrap/dist/css/bootstrap.css';
 
 const App = () => {
   return (
