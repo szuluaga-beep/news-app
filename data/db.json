@@ -1,0 +1,28 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Noticia 1",
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/11/01/05/18/coffee-7561288_960_720.jpg",
+      "description": "Esta es una descripción",
+      "date": "2022-11-10",
+      "author": "Steven Zuluaga Cortes"
+    },
+    {
+      "id": 2,
+      "title": "Noticia 2",
+      "imageUrl": "https://cdn.pixabay.com/photo/2013/08/11/19/46/coffee-171653_960_720.jpg",
+      "description": "Esta es una descripción",
+      "date": "2022-11-11",
+      "author": "Carlos Perez"
+    },
+    {
+      "id": 3,
+      "title": "Noticia 3",
+      "imageUrl": "https://cdn.pixabay.com/photo/2013/08/11/19/46/coffee-171653_960_720.jpg",
+      "description": "Esta es una descripción",
+      "date": "2022-11-11",
+      "author": "Carlos Juan"
+    }
+  ]
+}
