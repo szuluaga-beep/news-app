@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import NewDetails from './components/News/NewDetails/NewDetails'
 import FormNew from './components/FormNews/FormNew'
 import NotFound from './components/NotFound/NotFound'
+import TableNews from './components/TableNews/TableNews'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='formNew' element={ <FormNew/>} />
         <Route path='/news' element={<News />} />
         <Route path='/news/:id' element={<NewDetails />} />
+        <Route path='/tableNew' element={ <TableNews/>} />
         <Route path='*' element={<NotFound />}/>
       </Routes>
     </div>

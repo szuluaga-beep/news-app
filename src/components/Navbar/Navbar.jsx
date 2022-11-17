@@ -17,6 +17,9 @@ const Navbar = () => {
                     <li>
                          <NavLink to='/formNew'>Form New</NavLink>
                     </li>
+                    <li>
+                         <NavLink to='/tableNew'>Table</NavLink>
+                    </li>
                </ul>
           </div>
      )
